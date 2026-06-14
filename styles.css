@@ -16,8 +16,8 @@ body {
 }
 
 body {
-  background: var(--indigo);
-  color: var(--antique-white);
+  background: #262C43;
+  color: #F7F7EC;
   font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -31,6 +31,7 @@ body {
   text-align: center;
 }
 
+/* logo */
 .brand {
   display: flex;
   flex-direction: column;
@@ -50,6 +51,7 @@ body {
   height: auto;
 }
 
+/* copy */
 .copy {
   margin-bottom: 68px;
 }
@@ -57,19 +59,17 @@ body {
 .tagline,
 .status,
 .links {
+  color: #F7F7EC;
   font-size: 13px;
   font-weight: 300;
-  letter-spacing: 0.34em;
-  line-height: 2.15;
+  letter-spacing: 0.26em;
+  line-height: 2.1;
   text-transform: lowercase;
+  opacity: 1;
 }
 
 .tagline {
   margin-bottom: 48px;
-}
-
-.status {
-  opacity: 0.95;
 }
 
 .links {
@@ -79,15 +79,18 @@ body {
   gap: 26px;
 }
 
-.links a {
-  color: var(--antique-white);
+.links a,
+.links span {
+  color: #F7F7EC;
   text-decoration: none;
+  opacity: 1;
 }
 
 .links a:hover {
-  opacity: 0.6;
+  opacity: 0.65;
 }
 
+/* mobile */
 @media (max-width: 640px) {
   .page {
     padding: 44px 22px 40px;
@@ -115,7 +118,7 @@ body {
   .status,
   .links {
     font-size: 11px;
-    letter-spacing: 0.23em;
+    letter-spacing: 0.18em;
     line-height: 2.05;
   }
 
