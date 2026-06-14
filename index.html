@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Slow Stir</title>
+
+<style>
+:root{
+  --bg:#4b5168;
+  --text:#f2efe8;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:var(--bg);
+  color:var(--text);
+  font-family: Helvetica, Arial, sans-serif;
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.container{
+  text-align:center;
+  width:90%;
+  max-width:600px;
+}
+
+.logo{
+  width:420px;
+  max-width:90%;
+  margin-bottom:80px;
+}
+
+.copy{
+  font-size:14px;
+  letter-spacing:0.28em;
+  line-height:2.1;
+  text-transform:lowercase;
+}
+
+.spacer{
+  height:60px;
+}
+
+.links{
+  display:flex;
+  justify-content:center;
+  gap:40px;
+}
+
+.links a{
+  color:var(--text);
+  text-decoration:none;
+  font-size:13px;
+  letter-spacing:0.25em;
+  transition:opacity .2s;
+}
+
+.links a:hover{
+  opacity:.6;
+}
+
+@media(max-width:768px){
+
+.logo{
+  width:280px;
+  margin-bottom:60px;
+}
+
+.copy{
+  font-size:12px;
+  letter-spacing:0.22em;
+}
+
+.links{
+  gap:24px;
+}
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<img src="wordmark.png" class="logo" alt="Slow Stir">
+
+<div class="copy">
+slow down,<br>
+stir deeper.
+</div>
+
+<div class="spacer"></div>
+
+<div class="copy">
+currently operating as a pop-up<br>
+in new york city.
+</div>
+
+<div class="spacer"></div>
+
+<div class="links">
+<a href="https://instagram.com/slowstir.nyc" target="_blank">instagram</a>
+<a href="mailto:hello@slowstir.nyc">email</a>
+</div>
+
+</div>
+
+</body>
+</html>
