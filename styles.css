@@ -23,7 +23,7 @@ body {
 
 .page {
   min-height: 100vh;
-  padding: 64px 24px 56px;
+  padding: 56px 24px 48px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,29 +31,27 @@ body {
   text-align: center;
 }
 
-/* logo area */
 .brand {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 64px;
+  margin-bottom: 56px;
 }
 
 .symbol {
-  width: 110px;
+  width: 90px;
   height: auto;
-  margin-bottom: 46px;
+  margin-bottom: 60px;
 }
 
 .wordmark {
-  width: 500px;
-  max-width: 82vw;
+  width: 560px;
+  max-width: 84vw;
   height: auto;
 }
 
-/* text */
 .copy {
-  margin-bottom: 72px;
+  margin-bottom: 68px;
 }
 
 .tagline,
@@ -67,14 +65,13 @@ body {
 }
 
 .tagline {
-  margin-bottom: 52px;
+  margin-bottom: 48px;
 }
 
 .status {
   opacity: 0.95;
 }
 
-/* links */
 .links {
   display: flex;
   align-items: center;
@@ -91,28 +88,27 @@ body {
   opacity: 0.6;
 }
 
-/* mobile */
 @media (max-width: 640px) {
   .page {
-    padding: 48px 22px 42px;
+    padding: 44px 22px 40px;
   }
 
   .brand {
-    margin-bottom: 54px;
+    margin-bottom: 50px;
   }
 
   .symbol {
-    width: 78px;
-    margin-bottom: 36px;
+    width: 68px;
+    margin-bottom: 44px;
   }
 
   .wordmark {
-    width: 320px;
-    max-width: 84vw;
+    width: 330px;
+    max-width: 86vw;
   }
 
   .copy {
-    margin-bottom: 58px;
+    margin-bottom: 56px;
   }
 
   .tagline,
@@ -124,7 +120,7 @@ body {
   }
 
   .tagline {
-    margin-bottom: 42px;
+    margin-bottom: 40px;
   }
 
   .links {
