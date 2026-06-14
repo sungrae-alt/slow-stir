@@ -175,4 +175,12 @@ body {
   .tagline {
     margin-bottom: 34px;
   }
+  .icon-links {
+  gap: 34px;
+}
+
+.icon-links a {
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 1;
 }
