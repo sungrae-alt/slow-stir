@@ -3,12 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Slow Stir</title>
 
 <style>
+
 :root{
-  --bg:#4b5168;
-  --text:#f2efe8;
+  --bg:#4B5168;
+  --text:#F2EFE8;
 }
 
 *{
@@ -17,101 +19,135 @@
   box-sizing:border-box;
 }
 
+html,body{
+  width:100%;
+  min-height:100vh;
+}
+
 body{
   background:var(--bg);
   color:var(--text);
-  font-family: Helvetica, Arial, sans-serif;
-  min-height:100vh;
+  font-family:Helvetica, Arial, sans-serif;
+
   display:flex;
-  align-items:center;
   justify-content:center;
+  align-items:center;
+
+  text-align:center;
+  padding:40px;
 }
 
 .container{
-  text-align:center;
-  width:90%;
-  max-width:600px;
+  width:100%;
+  max-width:700px;
 }
 
-.logo{
-  width:420px;
-  max-width:90%;
-  margin-bottom:80px;
+.brand{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:32px;
+
+  margin-bottom:72px;
+}
+
+.symbol{
+  width:120px;
+  height:auto;
+}
+
+.wordmark{
+  width:520px;
+  max-width:90vw;
+  height:auto;
 }
 
 .copy{
   font-size:14px;
-  letter-spacing:0.28em;
-  line-height:2.1;
+  line-height:2;
+  letter-spacing:.25em;
   text-transform:lowercase;
 }
 
-.spacer{
-  height:60px;
+.section{
+  margin-top:40px;
 }
 
 .links{
+  margin-top:60px;
+
   display:flex;
   justify-content:center;
-  gap:40px;
+  gap:36px;
 }
 
 .links a{
   color:var(--text);
   text-decoration:none;
   font-size:13px;
-  letter-spacing:0.25em;
-  transition:opacity .2s;
+  letter-spacing:.25em;
+  text-transform:lowercase;
+  transition:.2s ease;
 }
 
 .links a:hover{
   opacity:.6;
 }
 
-@media(max-width:768px){
+@media (max-width:768px){
 
-.logo{
-  width:280px;
-  margin-bottom:60px;
+  .symbol{
+    width:90px;
+  }
+
+  .wordmark{
+    width:320px;
+  }
+
+  .copy{
+    font-size:12px;
+    letter-spacing:.18em;
+  }
+
+  .links{
+    gap:24px;
+  }
 }
 
-.copy{
-  font-size:12px;
-  letter-spacing:0.22em;
-}
-
-.links{
-  gap:24px;
-}
-}
 </style>
-
 </head>
 
 <body>
 
 <div class="container">
 
-<img src="wordmark.png" class="logo" alt="Slow Stir">
+  <div class="brand">
 
-<div class="copy">
-slow down,<br>
-stir deeper.
-</div>
+    <img src="symbol.png" class="symbol" alt="Slow Stir Symbol">
 
-<div class="spacer"></div>
+    <img src="wordmark.png" class="wordmark" alt="Slow Stir">
 
-<div class="copy">
-currently operating as a pop-up<br>
-in new york city.
-</div>
+  </div>
 
-<div class="spacer"></div>
+  <div class="copy">
+    slow down,<br>
+    stir deeper.
+  </div>
 
-<div class="links">
-<a href="https://instagram.com/slowstir.nyc" target="_blank">instagram</a>
-<a href="mailto:hello@slowstir.nyc">email</a>
-</div>
+  <div class="section copy">
+    currently operating as a pop-up<br>
+    in new york city.
+  </div>
+
+  <div class="section copy">
+    a permanent home is in development.
+  </div>
+
+  <div class="links">
+    <a href="https://instagram.com/slowstir.nyc" target="_blank">instagram</a>
+
+    <a href="mailto:hello@slowstir.nyc">email</a>
+  </div>
 
 </div>
 
