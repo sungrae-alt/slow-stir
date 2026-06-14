@@ -51,12 +51,11 @@ body {
 
   margin-bottom: 42px;
 
-  /* visually center symbol's vertical stroke over the wordmark */
-  transform: translateX(-10px);
+  transform: none;
 }
 
 .wordmark {
-  width: 620px;
+  width: 660px;
   max-width: 84vw;
   height: auto;
   display: block;
@@ -64,6 +63,7 @@ body {
 
 .copy {
   width: 100%;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -73,51 +73,53 @@ body {
 
 .tagline {
   color: var(--antique-white);
+
   font-size: 13px;
   font-weight: 300;
+
   letter-spacing: 0.26em;
   line-height: 2.1;
+
   margin-bottom: 42px;
+
   text-transform: lowercase;
 }
 
 .status {
   color: var(--antique-white);
+
   font-size: 13px;
   font-weight: 300;
+
   letter-spacing: 0.26em;
   line-height: 2.1;
+
   text-transform: lowercase;
 }
 
 .links {
   width: 100%;
-  display: grid;
-  grid-template-columns: 130px 20px 130px;
+
+  display: flex;
   justify-content: center;
   align-items: center;
-  column-gap: 0;
+
+  gap: 26px;
 }
 
 .links a,
 .links span {
   color: var(--antique-white);
+
   text-decoration: none;
+
   font-size: 13px;
   font-weight: 300;
+
   letter-spacing: 0.26em;
   text-transform: lowercase;
+
   transition: opacity 0.2s ease;
-}
-
-.links a {
-  display: block;
-  text-align: center;
-}
-
-.links span {
-  display: block;
-  text-align: center;
 }
 
 .links a:hover {
@@ -136,11 +138,11 @@ body {
   .symbol {
     width: 68px;
     margin-bottom: 36px;
-    transform: translateX(-8px);
+    transform: none;
   }
 
   .wordmark {
-    width: 330px;
+    width: 350px;
     max-width: 88vw;
   }
 
@@ -162,6 +164,6 @@ body {
   }
 
   .links {
-    grid-template-columns: 100px 18px 100px;
+    gap: 20px;
   }
 }
