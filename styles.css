@@ -25,6 +25,7 @@ body {
 .page {
   min-height: 100vh;
   width: 100%;
+  padding: 56px 24px 48px;
 
   display: flex;
   flex-direction: column;
@@ -32,17 +33,10 @@ body {
   align-items: center;
 
   text-align: center;
-
-  padding: 56px 24px 48px;
 }
-
-/* -------------------- */
-/* LOGO */
-/* -------------------- */
 
 .brand {
   width: 100%;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -53,27 +47,23 @@ body {
 .symbol {
   width: 80px;
   height: auto;
+  display: block;
 
   margin-bottom: 42px;
 
-  display: block;
+  /* visually center symbol's vertical stroke over the wordmark */
+  transform: translateX(-10px);
 }
 
 .wordmark {
   width: 620px;
   max-width: 84vw;
   height: auto;
-
   display: block;
 }
 
-/* -------------------- */
-/* COPY */
-/* -------------------- */
-
 .copy {
   width: 100%;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -83,68 +73,56 @@ body {
 
 .tagline {
   color: var(--antique-white);
-
   font-size: 13px;
   font-weight: 300;
-
   letter-spacing: 0.26em;
   line-height: 2.1;
-
   margin-bottom: 42px;
-
   text-transform: lowercase;
 }
 
 .status {
   color: var(--antique-white);
-
   font-size: 13px;
   font-weight: 300;
-
   letter-spacing: 0.26em;
   line-height: 2.1;
-
   text-transform: lowercase;
 }
 
-/* -------------------- */
-/* LINKS */
-/* -------------------- */
-
 .links {
   width: 100%;
-
-  display: flex;
-  flex-direction: row;
-
+  display: grid;
+  grid-template-columns: 130px 20px 130px;
   justify-content: center;
   align-items: center;
-
-  gap: 26px;
+  column-gap: 0;
 }
 
 .links a,
 .links span {
   color: var(--antique-white);
-
   text-decoration: none;
-
   font-size: 13px;
   font-weight: 300;
-
   letter-spacing: 0.26em;
   text-transform: lowercase;
-
   transition: opacity 0.2s ease;
+}
+
+.links a {
+  display: block;
+  text-align: center;
+}
+
+.links span {
+  display: block;
+  text-align: center;
 }
 
 .links a:hover {
   opacity: 0.65;
 }
-
-/* -------------------- */
-/* MOBILE */
-/* -------------------- */
 
 @media (max-width: 640px) {
   .page {
@@ -158,6 +136,7 @@ body {
   .symbol {
     width: 68px;
     margin-bottom: 36px;
+    transform: translateX(-8px);
   }
 
   .wordmark {
@@ -170,7 +149,9 @@ body {
   }
 
   .tagline,
-  .status {
+  .status,
+  .links a,
+  .links span {
     font-size: 11px;
     letter-spacing: 0.18em;
     line-height: 2;
@@ -181,12 +162,6 @@ body {
   }
 
   .links {
-    gap: 18px;
-  }
-
-  .links a,
-  .links span {
-    font-size: 11px;
-    letter-spacing: 0.18em;
+    grid-template-columns: 100px 18px 100px;
   }
 }
