@@ -51,7 +51,7 @@ body {
 
   margin-bottom: 42px;
 
-  transform: translateX(-2px);
+  transform: translateX(+4px);
 }
 
 .wordmark {
