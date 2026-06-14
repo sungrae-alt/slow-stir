@@ -140,7 +140,18 @@ body {
   .symbol {
     width: 68px;
     margin-bottom: 36px;
-    transform: none;
+
+    transform: translateX(0);
+  }
+
+  .copy {
+    transform: translateX(0);
+  }
+
+  .links {
+    transform: translateX(0);
+
+    gap: 20px;
   }
 
   .wordmark {
@@ -163,9 +174,5 @@ body {
 
   .tagline {
     margin-bottom: 34px;
-  }
-
-  .links {
-    gap: 20px;
   }
 }
