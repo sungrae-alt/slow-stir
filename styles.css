@@ -97,7 +97,7 @@ body {
   align-items: center;
 
   gap: 34px;
-  transform: translateX(12px);
+  transform: translateX(10px);
 }
 
 .icon-links a {
