@@ -143,7 +143,7 @@ body {
   }
 
   .symbol {
-    width: 160px;
+    width: 140px;
     margin-bottom: 16px;
     transform: translateX(10px);
   }
@@ -175,7 +175,7 @@ body {
   }
 
   .icon-links a {
-    width: 24px;
-    height: 24px;
+    width: 22px;
+    height: 22px;
   }
 }
