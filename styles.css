@@ -178,4 +178,14 @@ body {
     width: 20px;
     height: 20px;
   }
+  .tagline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stir-line {
+    display: inline-block;
+    transform: translateX(3px);
+  }
 }
