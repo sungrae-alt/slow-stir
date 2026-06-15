@@ -139,11 +139,11 @@ body {
   }
 
   .brand {
-    margin-bottom: 80px;
+    margin-bottom: 56px;
   }
 
   .symbol {
-    width: 84px;
+    width: 90px;
     margin-bottom: 16px;
     transform: translateX(10px);
   }
@@ -154,7 +154,7 @@ body {
   }
 
   .copy {
-    margin-bottom: 80px;
+    margin-bottom: 56px;
     transform: translateX(6px);
   }
 
