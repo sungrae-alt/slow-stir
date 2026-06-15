@@ -139,17 +139,17 @@ body {
   }
 
   .brand {
-    margin-bottom: 36px;
+    margin-bottom: 40px;
   }
 
   .symbol {
-    width: 150px;
+    width: 180px;
     margin-bottom: 16px;
     transform: translateX(10px);
   }
 
   .wordmark {
-    width: 320px;
+    width: 340px;
     max-width: 88vw;
   }
 
@@ -166,7 +166,7 @@ body {
   }
 
   .tagline {
-    margin-bottom: 36px;
+    margin-bottom: 40px;
   }
 
   .links {
