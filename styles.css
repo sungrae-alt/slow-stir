@@ -75,7 +75,6 @@ body {
 .tagline,
 .status {
   color: var(--antique-white);
-  opacity: 0.8;
   font-size: 16px;
   font-weight: 300;
 
@@ -86,6 +85,8 @@ body {
 
 .tagline {
   margin-bottom: 35px;
+.status {
+  opacity: 0.85;
 }
 
 .links {
