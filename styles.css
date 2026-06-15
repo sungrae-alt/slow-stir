@@ -155,7 +155,7 @@ body {
 
   .copy {
     margin-bottom: 50px;
-    transform: translateX(0);
+    transform: translateX(6px);
   }
 
   .tagline,
