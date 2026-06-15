@@ -86,6 +86,9 @@ body {
 .tagline {
   margin-bottom: 35px;
 }
+.status {
+  opacity: 0.5;
+}
 
 .links {
   width: 100%;
