@@ -154,7 +154,7 @@ body {
   }
 
   .copy {
-    margin-bottom: 56px;
+    margin-bottom: 80px;
     transform: translateX(6px);
   }
 
@@ -166,7 +166,7 @@ body {
   }
 
   .tagline {
-    margin-bottom: 80px;
+    margin-bottom: 56px;
   }
 
   .links {
