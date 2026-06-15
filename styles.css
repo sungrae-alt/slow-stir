@@ -41,7 +41,7 @@ body {
   flex-direction: column;
   align-items: center;
 
-  margin-bottom: 44px;
+  margin-bottom: 40px;
 }
 
 .symbol {
@@ -49,7 +49,7 @@ body {
   height: auto;
   display: block;
 
-  margin-bottom: 36px;
+  margin-bottom: 30px;
 
   transform: translateX(16px);
 }
