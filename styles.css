@@ -1,3 +1,4 @@
+```css
 :root {
   --indigo: #262C43;
   --antique-white: #F7F7EC;
@@ -97,6 +98,7 @@ body {
 
 .status {
   font-family: Helvetica, Arial, sans-serif;
+  color: rgba(247, 247, 236, 0.82);
 }
 
 .links {
@@ -181,6 +183,7 @@ body {
 
   .status {
     letter-spacing: 0.18em;
+    color: rgba(247, 247, 236, 0.82);
   }
 
   .links {
@@ -193,3 +196,4 @@ body {
     height: 22px;
   }
 }
+```
