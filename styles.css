@@ -74,8 +74,6 @@ body {
 
 .tagline,
 .status {
-  font-family: Helvetica, Arial, sans-serif;
-  font-style: normal;
   color: var(--antique-white);
 
   font-size: 16px;
@@ -88,8 +86,6 @@ body {
 
 .tagline {
   margin-bottom: 35px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-style: italic;
 }
 
 .links {
