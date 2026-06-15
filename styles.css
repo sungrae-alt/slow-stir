@@ -45,7 +45,7 @@ body {
 }
 
 .symbol {
-  width: 96px;
+  width: 130px;
   height: auto;
   display: block;
 
@@ -55,7 +55,7 @@ body {
 }
 
 .wordmark {
-  width: 550px;
+  width: 500px;
   max-width: 84vw;
   height: auto;
   display: block;
