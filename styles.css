@@ -125,7 +125,16 @@ body {
 }
 
 @media (max-width: 640px) {
+
+  html,
+  body {
+    height: 100%;
+    overflow: hidden;
+  }
+
   .page {
+    min-height: 100svh;
+    height: 100svh;
     padding: 44px 22px 40px;
   }
 
