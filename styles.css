@@ -80,6 +80,9 @@ body {
   font-weight: 300;
 
   letter-spacing: 0.26em;
+  font-family: Helvetica, Arial, sans-serif;
+  font-style: italic;
+
   line-height: 1.9;
 
   text-transform: lowercase;
