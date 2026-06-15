@@ -134,13 +134,13 @@ body {
   }
 
   .symbol {
-    width: 68px;
+    width: 78px;
     margin-bottom: 36px;
     transform: translateX(10px);
   }
 
   .wordmark {
-    width: 350px;
+    width: 280px;
     max-width: 88vw;
   }
 
