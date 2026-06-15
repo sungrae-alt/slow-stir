@@ -87,6 +87,16 @@ body {
 
 .tagline {
   margin-bottom: 35px;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.16em;
+  opacity: 0.94;
+}
+
+.status {
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .links {
@@ -161,12 +171,16 @@ body {
   .tagline,
   .status {
     font-size: 15px;
-    letter-spacing: 0.18em;
     line-height: 1.6;
   }
 
   .tagline {
     margin-bottom: 40px;
+    letter-spacing: 0.12em;
+  }
+
+  .status {
+    letter-spacing: 0.18em;
   }
 
   .links {
