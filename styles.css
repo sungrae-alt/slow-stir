@@ -276,13 +276,13 @@ body {
 
 @media (max-width: 640px) {
   .join-list {
-    margin-top: 34px;
-    margin-bottom: 26px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 
     padding: 9px 24px;
 
     font-size: 13px;
     letter-spacing: 0.20em;
-    transform: translateX(4px);
+    transform: translateX(0px);
   }
 }
