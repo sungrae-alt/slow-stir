@@ -272,8 +272,8 @@ body {
 }
 @media (max-width: 640px) {
   .join-list {
-    margin-top: 10px;
-    font-size: 12px;
+    margin-top: 20px;
+    font-size: 14px;
   }
 }
 
