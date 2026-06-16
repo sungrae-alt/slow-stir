@@ -263,7 +263,7 @@ body {
   color: #f4f1e8 !important;
   text-decoration: none !important;
   transition: opacity 0.25s ease;
-  transform: translateX(8px);
+  transform: translateX(10px);
 }
 
 .join-list:hover {
