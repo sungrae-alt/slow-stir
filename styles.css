@@ -276,7 +276,7 @@ body {
 
 @media (max-width: 640px) {
   .join-list {
-    margin-top: -10px;
+    margin-top: 0px;
     margin-bottom: 20px;
 
     padding: 9px 20px;
