@@ -255,11 +255,11 @@ body {
   display: block;
   margin-top: 20px;
   text-align: center;
-  font-family: Inter, sans-serif;
-  font-size: 16px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
   font-weight: 300;
-  opacity: 0.7;
-  letter-spacing: 0.22em;
+  opacity: 0.82;
+  letter-spacing: 0.04em;
   color: #f4f1e8 !important;
   text-decoration: none !important;
   transition: opacity 0.25s ease;
