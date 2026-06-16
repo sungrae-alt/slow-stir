@@ -250,8 +250,9 @@ body {
 .join-list {
   display: inline-block;
 
-  margin-top: 24px;
-  margin-bottom: 28px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  transform: translateX(12px);
 
   padding: 10px 22px;
 
