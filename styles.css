@@ -245,4 +245,23 @@ body {
   .popup-status {
     margin-bottom: 42px;
   }
+  .join-list {
+  display: block;
+  margin-top: 34px;
+  text-align: center;
+
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: lowercase;
+
+  color: #f4f1e8;
+  text-decoration: none;
+
+  opacity: 0.72;
+  transition: opacity 0.25s ease;
 }
+
+.join-list:hover {
+  opacity: 1;
+}
+
