@@ -255,12 +255,13 @@ body {
   display: block;
   margin-top: 16px;
   text-align: center;
-  font-size: 10px;
+  font-size: 14px;
   letter-spacing: 0.22em;
   color: #f4f1e8 !important;
   text-decoration: none !important;
   opacity: 0.55;
   transition: opacity 0.25s ease;
+  transform: translateX(10px);
 }
 
 .join-list:hover {
