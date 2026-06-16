@@ -245,8 +245,10 @@ body {
   .popup-status {
     margin-bottom: 42px;
   }
- .join-list,
-.join-list:visited {
+.join-list,
+.join-list:link,
+.join-list:visited,
+.join-list:active {
   display: block;
   margin-top: 18px;
   text-align: center;
@@ -254,14 +256,15 @@ body {
   font-size: 10px;
   letter-spacing: 0.22em;
 
-  color: #f4f1e8;
-  text-decoration: none;
+  color: #f4f1e8 !important;
+  text-decoration: none !important;
 
   opacity: 0.55;
   transition: opacity 0.25s ease;
 }
 
 .join-list:hover {
+  color: #f4f1e8 !important;
   opacity: 1;
 }
 
