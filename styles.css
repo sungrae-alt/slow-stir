@@ -145,7 +145,7 @@ body {
 
   .symbol {
     width: 110px;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     transform: translateX(10px);
   }
 
@@ -277,7 +277,7 @@ body {
 @media (max-width: 640px) {
   .join-list {
     margin-top: -10px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
 
     padding: 9px 20px;
 
