@@ -245,19 +245,19 @@ body {
   .popup-status {
     margin-bottom: 42px;
   }
-  .join-list {
+ .join-list,
+.join-list:visited {
   display: block;
-  margin-top: 34px;
+  margin-top: 18px;
   text-align: center;
 
-  font-size: 11px;
-  letter-spacing: 0.18em;
-  text-transform: lowercase;
+  font-size: 10px;
+  letter-spacing: 0.22em;
 
   color: #f4f1e8;
   text-decoration: none;
 
-  opacity: 0.72;
+  opacity: 0.55;
   transition: opacity 0.25s ease;
 }
 
