@@ -265,6 +265,8 @@ body {
 .join-list:hover {
   color: #f4f1e8 !important;
   opacity: 1;
+  margin-top: 60px;
+  font-size: 30px;
 }
 
 @media (max-width: 640px) {
