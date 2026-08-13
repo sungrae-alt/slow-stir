@@ -204,7 +204,6 @@ body {
 .popup-back {
   color: var(--antique-white);
   font-weight: 300;
-  text-transform: lowercase;
   text-decoration: none;
 }
 
