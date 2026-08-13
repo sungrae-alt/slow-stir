@@ -288,7 +288,7 @@ body {
   }
 
   .popup-content {
-    transform: translateX(0);
+    transform: translateX(20);
   }
 
   .popup-heading {
